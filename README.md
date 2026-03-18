@@ -17,7 +17,7 @@ pip install -r requierements.txt
 OPENROUTER_API_KEY=[your_key_here]
 ```
 
-2. Lancer l'application Streamlit (recommandé) :
+2. Lancer l'application Streamlit :
 
 ```bash
 streamlit run streamlit_app.py
