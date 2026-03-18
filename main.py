@@ -69,9 +69,9 @@ if __name__ == "__main__":
     vs = build_rag_system()
     
     # Test interactif
-    print("\n--- RAG prêt ! Posez votre question sur Marineford (ou 'exit') ---")
+    print("\n--- RAG prêt ! Pose une question de fou sur one Piece (sur Marineford de préférence) (ou 'exit') ---")
     while True:
-        query = input("\nVotre question : ")
+        query = input("\nTa question mon goat : ")
         if query.lower() == 'exit': break
         
         answer = ask_question(query, vs)
